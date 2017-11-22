@@ -67,8 +67,8 @@ function sendPush(browser,data1) {
 			['Find out more about web push notifications in our guides!', 'http://docs.pushwoosh.com/docs/firefox-web-push']*/
 		]
 	];
-	var notificationIcon = 'https://wwww.pushwoosh.com/wp-content/themes/pushwoosh/img/chrome.png';
-	var notificationTitle = 'Pushwoosh';
+	var notificationIcon = 'weather.png';
+	var notificationTitle = 'Hi there this is your curent weather';
 
 	var randomText = pushTexts[0][getRandomInt(0, pushTexts[0].length - 1)];
 	if (browser == 'Safari') {
