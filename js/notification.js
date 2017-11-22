@@ -67,7 +67,7 @@ function sendPush(browser,data1) {
 			['Find out more about web push notifications in our guides!', 'http://docs.pushwoosh.com/docs/firefox-web-push']*/
 		]
 	];
-	var notificationIcon = 'weather.png';
+	var notificationIcon = 'Weather.png';
 	var notificationTitle = 'Hi,at your current location it is';
 
 	var randomText = pushTexts[0][getRandomInt(0, pushTexts[0].length - 1)];
