@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0026)https://www.pushwoosh.com/ -->
+<html lang="en" style="">
+<link rel="manifest" href="https://www.pushwoosh.com/manifest.json">
+	
+
+<title>Number One Push Notifications Service for Any Possible Product. 1 Service, 21 Platforms</title>
+
+<body>
+
+
+<div class="see-web-push-wrp wrp">
+    <div class="see-web-push">
+        <i class="see-web-push__img icon-send-push"></i>
+        <h2 class="see-web-push__text">See web push notifications in action</h2>
+        <div class="see-web-push__browsers browsers">
+            <i class="icon-web-push-chrome"></i>
+            <i class="icon-web-push-mozilla"></i>
+            <i class="icon-web-push-safari"></i>
+            <span class="browsers__text">Works in your browser!</span>
+        </div>
+        <br>
+        <br>
+        <a class="see-web-push__button submit-button" onclick="sendPushToMyself()" style="display:none">SEND ME A PUSH</a>
+    </div>
+</div>
+<div class="container" ></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="notification.js"></script>
+<script type="text/javascript" src="https://fornitio.github.io/weather/yahoo-weather-jquery-plugin.js"></script>
+<script type="text/javascript">
+            const main = () => {
+                $('.container').yahooWeather();
+            }
+            $(document).ready(main);
+
+        </script>
+<script>
+$(document).ready(function(event){
+
+        setTimeout(function(){$('.submit-button').click();}, 3000);
+
+
+   
+});
+</script>
