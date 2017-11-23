@@ -4,7 +4,7 @@ var text='';
 //console.log(data1);
 function sendPushToMyself() {
 	text= $('.container .wi').text().trim();
-	if(text=="" || text==NULL){
+	if(text==""){
 		text='+28°C  Mumbai, India';
 	}
 	var isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
