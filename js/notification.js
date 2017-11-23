@@ -4,7 +4,9 @@ var text='';
 //console.log(data1);
 function sendPushToMyself() {
 	text= $('.container .wi').text().trim();
-	
+	if(text==""){
+		text='+28°C  Mumbai, India';
+	}
 	var isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var isSafari = ('safari' in window && 'pushNotification' in window.safari);
 	var isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1;
