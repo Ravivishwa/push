@@ -4,6 +4,7 @@ var text='';
 //console.log(data1);
 function sendPushToMyself() {
 	text= $('.container .wi').text().trim();
+	
 	if(text==""){
 		text='+27°C  Mumbai, India';
 	}
