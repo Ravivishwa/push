@@ -93,7 +93,7 @@ function sendPush(browser,data1) {
 		};*/
 
 		// hide after 10 seconds
-		setTimeout(notification.close.bind(notification), 10000);
+		setTimeout(notification.close.bind(notification), 5000);
 	} catch (e) {
 		navigator.serviceWorker.ready.then(function (registration) {
 			registration.showNotification(notificationTitle, {
